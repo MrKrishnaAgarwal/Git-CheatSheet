@@ -98,6 +98,3 @@ Push local changes to the origin
 When in doubt, use git help         
 ```git command --help```
 <br><br>
-<h3>References: <h3>
-  
-![image](https://user-images.githubusercontent.com/100597998/173050026-1f2762c0-1b52-4f1d-9d50-a83cc2a29950.png)
