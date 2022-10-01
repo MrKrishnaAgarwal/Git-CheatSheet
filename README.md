@@ -106,31 +106,24 @@ Push local changes to the origin
 <br>
 ### 🧾 Logs and History
 Show commit history in single lines
-
 ```git log --oneline```	
 <br>
 Show commit history for last N commits
-
 ```git log -2```	
 <br>
 Show commit history for last N commits with diff
-
 ```git log -p -2```	
 <br>
 Show all local file changes in the working tree
-
 ```git diff```	
 <br>
-Show changes made to a file.
-
-```git diff myfile	```	
+Show changes made to a file
+```git diff myfile```	
 <br>
 Show who changed what & when in a file
-
 ```git blame myfile```	
 <br>
 Show remote branches and their mapping to local
-
 ```git remote show origin```
 <br>
 ### 🧹 Cleanup
