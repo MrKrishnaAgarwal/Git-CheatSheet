@@ -115,7 +115,7 @@ Show commit history for last N commits with diff
 ```git log -p -2```	
 <br>
 Show all local file changes in the working tree     
-```git diff```  
+```git diff```
 <br>
 Show changes made to a file       
 ```git diff myfile```	
