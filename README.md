@@ -101,7 +101,7 @@ Fetch the latest changes from origin and merge
 Fetch the latest changes from origin and rebase         
 ```git pull --rebase```
 <br>
-Push local changes to the origin         
+Push local changes to the origin          
 ```git push```
 <br>
 ### 🧾 Logs and History
@@ -127,16 +127,16 @@ Show remote branches and their mapping to local
 ```git remote show origin```
 <br>
 ### 🧹 Cleanup
-Delete all untracked files
+Delete all untracked files    
 ```git clean -f```
 <br>	
-Delete all untracked files and directories
+Delete all untracked files and directories    
 ```git clean -df```
 <br>
-Undo local modifications to all files
+Undo local modifications to all files   
 ```git checkout -- ```
 <br>
-Unstage a file
+Unstage a file    
 ```git reset HEAD myfile```
 <br>
 ### 🗣Help
