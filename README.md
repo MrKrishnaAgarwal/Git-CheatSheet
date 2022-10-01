@@ -1,9 +1,17 @@
 # Git Cheat Sheet
 Basic Git Commands Cheet Sheet
 
+### 🖥️ Setting up your GIT information
+
+From scratch -- Set your name associated with your user account         
+```git config --global user.name "NAME"```
+<br>
+Set your email associated with your user account  
+```git config --global user.email "youremail@abc.com"```
+
 ### 🛠 Create a Repository
 
-From scratch -- Create a new local repository         
+Create a new local repository         
 ```git init [project name]```
 <br>
 Download from an existing repository  
