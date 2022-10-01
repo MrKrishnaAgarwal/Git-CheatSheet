@@ -49,7 +49,7 @@ Switch to an existing branch, branch_name, and update working directory
 Create a new branch called new branch                  
 ```git branch branch_name ```
 <br>
-Create a local branch and switch to it
+Create a local branch and switch to it      
 ```git checkout -b branch_name```
 <br>
 Delete the branch called my_branch         
