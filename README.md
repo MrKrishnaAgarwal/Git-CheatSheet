@@ -55,10 +55,10 @@ Create a local branch and switch to it
 Delete the branch called my_branch         
 ```git branch -d my_branch```
 <br>
-Push branch to remote
+Push branch to remote     
 ```git push origin branch_name```
 <br>
-Rename current branch
+Rename current branch     
 ```git branch -m new_name```
 <br>
 Merge branch _a into branch_b         
@@ -88,7 +88,7 @@ Unstages file, keeping the file changes
 Revert everything to the last commit         
 ```git reset --hard```
 <br>
-Overwrite commit history with your own local history (force push):
+Overwrite commit history with your own local history (force push):    
 ```git push --force```
 <br>
 ### 🚰 Synchronize
@@ -105,25 +105,25 @@ Push local changes to the origin
 ```git push```
 <br>
 ### 🧾 Logs and History
-Show commit history in single lines
+Show commit history in single lines     
 ```git log --oneline```	
 <br>
-Show commit history for last N commits
+Show commit history for last N commits      
 ```git log -2```	
 <br>
-Show commit history for last N commits with diff
+Show commit history for last N commits with diff      
 ```git log -p -2```	
 <br>
-Show all local file changes in the working tree
-```git diff```	
+Show all local file changes in the working tree     
+```git diff```  
 <br>
-Show changes made to a file
+Show changes made to a file       
 ```git diff myfile```	
 <br>
-Show who changed what & when in a file
+Show who changed what & when in a file      
 ```git blame myfile```	
 <br>
-Show remote branches and their mapping to local
+Show remote branches and their mapping to local       
 ```git remote show origin```
 <br>
 ### 🧹 Cleanup
