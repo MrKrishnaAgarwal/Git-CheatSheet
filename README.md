@@ -105,38 +105,38 @@ Push local changes to the origin
 ```git push```
 <br>
 ### 🧾 Logs and History
-Show commit history in single lines.
+Show commit history in single lines
 ```git log --oneline```	
 <br>
-Show commit history for last N commits.
+Show commit history for last N commits
 ```git log -2```	
 <br>
-Show commit history for last N commits with diff.
+Show commit history for last N commits with diff
 ```git log -p -2```	
 <br>
-Show all local file changes in the working tree.
+Show all local file changes in the working tree
 ```git diff```	
 <br>
 Show changes made to a file.
 ```git diff myfile	```	
 <br>
-Show who changed what & when in a file.
+Show who changed what & when in a file
 ```git blame myfile```	
 <br>
-Show remote branches and their mapping to local.
+Show remote branches and their mapping to local
 ```git remote show origin```
 <br>
 ### 🧹 Cleanup
-Delete all untracked files.	
+Delete all untracked files
 ```git clean -f```
 <br>	
-Delete all untracked files and directories.		
+Delete all untracked files and directories
 ```git clean -df```
 <br>
-Undo local modifications to all files.
+Undo local modifications to all files
 ```git checkout -- ```
 <br>
-Unstage a file.	
+Unstage a file
 ```git reset HEAD myfile```
 <br>
 ### 🗣Help
@@ -171,10 +171,10 @@ Get a dose of nostalgia with this one! Learn on-the-job Git workflow while playi
 
 ## Are you more of an extensive reader, we got you!
 
-Here is GitHub's own GIT CHEATSHEET for you 📗
+Here is GitHub's own GIT Cheatsheet for you 📗
 - [GitHub's GIT Cheatsheet](https://github.com/MrKrishnaAgarwal/Git-CheatSheet/blob/main/git-cheat-sheet-education.pdf)
 
-For more in-depth reading - you should check
+For more in-depth reading - you should check Git Notes for Professionals 📕
 - [Git Notes for Professional by GoalKicker](https://goalkicker.com/GitBook/GitNotesForProfessionals.pdf)
 
 <br>
