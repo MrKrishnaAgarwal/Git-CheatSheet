@@ -76,6 +76,9 @@ Merge branch _a into branch_b
 Tag the current commit         
 ```git tag my_tag```
 <br>
+Discard all local commit's and changes
+```git reset --hard origin/<remote_branch_name>```
+<br>
 
 ### 👛 Make a change
 Stages the file, ready for commit         
