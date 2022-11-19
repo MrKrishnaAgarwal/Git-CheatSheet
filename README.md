@@ -54,6 +54,9 @@ List remote and local branches
 Switch to an existing branch, branch_name, and update working directory         
 ```git checkout branch_name```
 <br>
+Switch to the last used branch         
+```git checkout - ```
+<br>
 Create a new branch called new branch                  
 ```git branch branch_name ```
 <br>
@@ -72,6 +75,9 @@ Rename current branch
 Merge branch _a into branch_b         
 ```git checkout branch_b```
 ```git merge branch_a```
+<br>
+Abort the current merge         
+```git merge --abort```
 <br>
 Tag the current commit         
 ```git tag my_tag```
@@ -124,6 +130,9 @@ Show commit history for last N commits
 <br>
 Show commit history for last N commits with diff      
 ```git log -p -2```	
+<br>
+Show reflog history for emergency actions         
+```git reflog```
 <br>
 Show all local file changes in the working tree     
 ```git diff```
