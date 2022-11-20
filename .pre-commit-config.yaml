@@ -16,4 +16,3 @@ repos:
       - id: trailing-whitespace # This hook trims trailing whitespace
       - id: requirements-txt-fixer # Sorts entries in requirements.txt
       - id: check-json # Check JSON files
-      
