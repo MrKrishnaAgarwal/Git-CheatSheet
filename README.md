@@ -6,164 +6,164 @@ This repository also lists some great resources and books for learning git.
 
 ### 🖥️ Setting up your Git information
 
-From scratch -- Set your name associated with your user account         
+From scratch -- Set your name associated with your user account
 ```git config --global user.name "NAME"```
 <br>
-Set your email associated with your user account  
+Set your email associated with your user account
 ```git config --global user.email "youremail@abc.com"```
 
 ### 🛠 Create a Repository
 
-Create a new local repository         
+Create a new local repository
 ```git init [project name]```
 <br>
-Download from an existing repository  
+Download from an existing repository
 ```git clone my_url```
 ### 🔎 Observe your Repository
-List new or modified files not yet committed        
+List new or modified files not yet committed
 ```git status```
 <br>
-Show the changes to files not yet staged        
+Show the changes to files not yet staged
 ```git diff```
 <br>
-Show the changes to staged files     
+Show the changes to staged files
 ```git diff --cached```
 <br>
-Show all staged and unstaged file changes        
+Show all staged and unstaged file changes
 ```git diff HEAD```
 <br>
-Show the changes between two commit ids         
+Show the changes between two commit ids
 ```git diff commit1 commit2```
 <br>
-List the change dates and authors for a file         
+List the change dates and authors for a file
 ```git blame [file]```
 <br>
-Show the file changes for a commit id and/or file         
+Show the file changes for a commit id and/or file
 ```git show [commit]: [file]```
 <br>
-Show full change history         
+Show full change history
 ```git log```
 <br>
-Show the change history for file/directory including diffs         
+Show the change history for file/directory including diffs
 ```git log -p [file/directory]```
 <br>
 ### 🌴 Working with Branches
-List all local branches         
+List all local branches
 ```git branch```
 <br>
-List remote and local branches         
+List remote and local branches
 ```git branch -a```
 <br>
-Switch to an existing branch, branch_name, and update the working directory         
+Switch to an existing branch, branch_name, and update the working directory
 ```git checkout branch_name```
 <br>
-Switch to the last used branch         
+Switch to the last used branch
 ```git checkout - ```
 <br>
-Create a new branch called the new branch                  
+Create a new branch called the new branch
 ```git branch branch_name ```
 <br>
-Create a local branch and switch to it      
+Create a local branch and switch to it
 ```git checkout -b branch_name```
 <br>
-Delete the branch called my_branch         
+Delete the branch called my_branch
 ```git branch -d my_branch```
 <br>
-Push branch to remote     
+Push branch to remote
 ```git push origin branch_name```
 <br>
-Rename current branch     
+Rename current branch
 ```git branch -m new_name```
 <br>
-Merge branch _a into branch_b         
+Merge branch _a into branch_b
 ```git checkout branch_b```
 ```git merge branch_a```
 <br>
-Abort the current merge         
+Abort the current merge
 ```git merge --abort```
 <br>
-Tag the current commit         
+Tag the current commit
 ```git tag my_tag```
 <br>
-Discard all local commits and changes    
+Discard all local commits and changes
 ```git reset --hard origin/<remote_branch_name>```
 <br>
 
 ### 👛 Make a change
-Stages the file, ready for commit         
+Stages the file, ready for commit
 ```git add [file]```
 <br>
-Stage all changed files, ready for commit         
+Stage all changed files, ready for commit
 ```git add .```
 <br>
-Commit all staged files to the versioned history         
+Commit all staged files to the versioned history
 ```git commit -m "commit message"```
 <br>
-Commit all your tracked files to the versioned history         
+Commit all your tracked files to the versioned history
 ```git commit -am "commit message```
 <br>
-Unstages the file, keeping the file changes         
+Unstages the file, keeping the file changes
 ```git reset [file]```
 <br>
-Revert everything to the last commit         
+Revert everything to the last commit
 ```git reset --hard```
 <br>
-Overwrite commit history with your local history (force push):    
+Overwrite commit history with your local history (force push):
 ```git push --force```
 <br>
 ### 🚰 Synchronize
-Get the latest changes from the origin (no merge)         
+Get the latest changes from the origin (no merge)
 ```git fetch```
 <br>
-Fetch the latest changes from the origin and merge         
+Fetch the latest changes from the origin and merge
 ```git pull```
 <br>
-Fetch the latest changes from the origin and rebase         
+Fetch the latest changes from the origin and rebase
 ```git pull --rebase```
 <br>
-Push local changes to the origin          
+Push local changes to the origin
 ```git push```
 <br>
 ### 🧾 Logs and History
-Show commit history in single lines     
-```git log --oneline``` 
+Show commit history in single lines
+```git log --oneline```
 <br>
-Show commit history for the last N commits      
-```git log -2```    
+Show commit history for the last N commits
+```git log -2```
 <br>
-Show commit history for the last N commits with diff      
-```git log -p -2``` 
+Show commit history for the last N commits with diff
+```git log -p -2```
 <br>
-Show reflog history for emergency actions         
+Show reflog history for emergency actions
 ```git reflog```
 <br>
-Show all local file changes in the working tree     
+Show all local file changes in the working tree
 ```git diff```
 <br>
-Show changes made to a file       
-```git diff myfile```   
+Show changes made to a file
+```git diff myfile```
 <br>
-Show who changed what & when in a file      
-```git blame myfile```  
+Show who changed what & when in a file
+```git blame myfile```
 <br>
-Show remote branches and their mapping to local       
+Show remote branches and their mapping to local
 ```git remote show origin```
 <br>
 ### 🧹 Cleanup
-Delete all untracked files    
+Delete all untracked files
 ```git clean -f```
-<br>    
-Delete all untracked files and directories    
+<br>
+Delete all untracked files and directories
 ```git clean -df```
 <br>
-Undo local modifications to all files   
+Undo local modifications to all files
 ```git checkout -- ```
 <br>
-Unstages a file    
+Unstages a file
 ```git reset HEAD myfile```
 <br>
 ### 🗣Help
-When in doubt, use git help         
+When in doubt, use git help
 ```git command --help```
 <br><br>
 
