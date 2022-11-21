@@ -11,6 +11,25 @@ From scratch -- Set your name associated with your user account
 <br>
 Set your email associated with your user account
 ```git config --global user.email "youremail@abc.com"```
+<br>
+Set your default editor
+```git config --global core.editor "vim"```
+<br>
+Set your default merge tool
+```git config --global merge.tool "vimdiff"```
+<br>
+Set your default push behavior
+```git config --global push.default "simple"```
+<br>
+Set your default pull behavior
+```git config --global pull.rebase "true"```
+<br>
+Set your default branch name
+```git config --global init.defaultBranch "main"```
+<br>
+Set your default credential helper
+```git config --global credential.helper "cache --timeout=3600"```
+<br>
 
 ### 🛠 Create a Repository
 
@@ -47,6 +66,10 @@ Show full change history
 Show the change history for file/directory including diffs
 ```git log -p [file/directory]```
 <br>
+Show the change history for a specific author
+```git log --author="[author name]"```
+<br>
+
 ### 🌴 Working with Branches
 List all local branches
 ```git branch```
@@ -162,10 +185,50 @@ Undo local modifications to all files
 Unstages a file
 ```git reset HEAD myfile```
 <br>
+Undo local modifications to a file and stage it
+```git checkout -- myfile```
+```git add myfile```
+<br>
+Find the commit that introduced a bug
+```git bisect start```
+```git bisect bad```
+```git bisect good <commit>```
+<br>
+
+### 📦 Submodules
+
+Add a submodule
+```git submodule add <url>```
+<br>
+Update a submodule
+```git submodule update --remote```
+<br>
+Remove a submodule
+```git submodule deinit -f -- submodule_name```
+```git rm -f submodule_name```
+```git rm -f .gitmodules```
+<br>
+### 📦 Subtrees
+
+Add a subtree
+```git subtree add --prefix=folder_name <url>```
+<br>
+Update a subtree
+```git subtree pull --prefix=folder_name <url>```
+<br>
+Remove a subtree
+```git subtree split --prefix=folder_name```
+```git rm -rf folder_name```
+```git commit -m "Remove folder_name"```
+<br>
+
 ### 🗣Help
-When in doubt, use git help
-```git command --help```
-<br><br>
+
+```git help -a``` and ```git help -g``` list available subcommands and some
+concept guides. See ```git help <command>``` or ```git help <concept>```
+to read about a specific subcommand or concept.
+See ```git help git``` for an overview of the system.
+<br>
 
 ## Git Resources
 You should check some of these Git resources as they would be amazing for your journey.
