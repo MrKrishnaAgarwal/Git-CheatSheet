@@ -186,7 +186,7 @@ Become a git guru with the help of Atlassian tutorials. Atlassian has done a fan
 #### ⭐ [Git Immersion](https://gitimmersion.com/)
 Learn all the fundamentals of Git with this guided tour. This resource explains every important Git command while you execute them on your local machine.
 
-####⭐ [Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
+#### ⭐ [Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 I'm a big believer that visual aids help you better understand and remember information. Which is why this resource is a must-see. Their diagrams and explanations are top-tier.
 
 #### ⭐ [GitHub Minesweeper](https://profy.dev/project/github-minesweeper)
