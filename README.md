@@ -171,25 +171,25 @@ When in doubt, use git help
 You should check some of these Git resources as they would be amazing for your journey.
 You will master Git with these resources:
 
-### ⭐ [Oh My Git](https://ohmygit.org/)
+#### ⭐ [Oh My Git](https://ohmygit.org/)
 This is an open-source card game that is dedicated to teaching important git commands. There's even an integrated terminal for you to test any git command you wish. Their graphics are nothing fancy but it helps with learning visually.
 
-### ⭐ [The Odin Project](https://www.theodinproject.com/lessons/foundations-git-basics)
+#### ⭐ [The Odin Project](https://www.theodinproject.com/lessons/foundations-git-basics)
 This site provides free full-stack courses that are maintained by the open-source community. They have two git courses that are well worth your attention.
 
-### ⭐ [Learn Git Branching](https://learngitbranching.js.org/)
+#### ⭐ [Learn Git Branching](https://learngitbranching.js.org/)
 Branching is an important topic in Git. There's no better way to learn it than this interactive game. Run commands with their built-in terminal and let their graphics explain the rest.
 
-### ⭐ [Git Tutorial by Atlasian](https://www.atlassian.com/git/tutorials)
+#### ⭐ [Git Tutorial by Atlasian](https://www.atlassian.com/git/tutorials)
 Become a git guru with the help of Atlassian tutorials. Atlassian has done a fantastic job with their explanations and visuals to understand git. This is one of the top resources for learning Git.
 
-### ⭐ [Git Immersion](https://gitimmersion.com/)
+#### ⭐ [Git Immersion](https://gitimmersion.com/)
 Learn all the fundamentals of Git with this guided tour. This resource explains every important Git command while you execute them on your local machine.
 
-### ⭐ [Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
+####⭐ [Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
 I'm a big believer that visual aids help you better understand and remember information. Which is why this resource is a must-see. Their diagrams and explanations are top-tier.
 
-### ⭐ [GitHub Minesweeper](https://profy.dev/project/github-minesweeper)
+#### ⭐ [GitHub Minesweeper](https://profy.dev/project/github-minesweeper)
 Get a dose of nostalgia with this one! Learn on-the-job Git workflow while playing minesweeper with another player. So much fun you'll forget you're even learning.
 
 ## Are you more of an extensive reader, we got you!
@@ -219,22 +219,6 @@ Contributions are always welcome! Please read the [contribution guidelines](/CON
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
-
-### Acknowledgments
-
-Feel free to refer to the following resources for more information on Git:
-
-- [GitHub's Git Cheatsheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-
-- [Git Notes for Professionals by GoalKicker](https://goalkicker.com/GitBook/GitNotesForProfessionals.pdf)
-
-- [The Odin Project](https://www.theodinproject.com/lessons/foundations-git-basics)
-
-- [Oh My Git](https://ohmygit.org/)
-
-- [Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
-
-- [Learn Git Branching](https://learngitbranching.js.org/)
 
 ### Contributors
 
