@@ -167,7 +167,7 @@ When in doubt, use git help
 ```git command --help```
 <br><br>
 
-# Git Resources
+## Git Resources
 You should check some of these Git resources as they would be amazing for your journey.
 You will master Git with these resources:
 
