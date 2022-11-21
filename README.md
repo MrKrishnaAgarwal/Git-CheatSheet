@@ -214,7 +214,7 @@ Here are some of the best Git courses on Udemy 🎓
 
 ### Contributing
 
-Contributions are always welcome! Please read the [contribution guidelines](/CONTIBUTING.md) first and then feel free to open a pull request.
+Contributions are always welcome! Please read the [contribution guidelines](/CONTRIBUTING.md) first and then feel free to open a pull request.
 
 ### License
 
