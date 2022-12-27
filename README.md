@@ -125,6 +125,9 @@ Commit all staged files to the versioned history
 Commit all your tracked files to the versioned history
 ```git commit -am "commit message```
 <br>
+Set the executable flag to an file foo.sh
+```git update-index --chmod=+x foo.sh```
+<br>
 Unstages the file, keeping the file changes
 ```git reset [file]```
 <br>
@@ -134,6 +137,10 @@ Revert everything to the last commit
 Overwrite commit history with your local history (force push):
 ```git push --force```
 <br>
+Reset remote branch to specific commit (danger: use only if not distributed to other people before):
+```git reset --hard <commit-hash> && git push -f origin <branch-name>```
+<br>
+
 ### 🚰 Synchronize
 Get the latest changes from the origin (no merge)
 ```git fetch```
