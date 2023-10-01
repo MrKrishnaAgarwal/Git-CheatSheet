@@ -6,197 +6,197 @@ This repository also lists some great resources and books for learning git.
 
 ### 🖥️ Setting up your Git information
 
-From scratch -- Set your name associated with your user account
+From scratch -- Set the name associated with your user account.
 ```git config --global user.name "NAME"```
 <br>
-Set your email associated with your user account
+Set the email associated with your user account.
 ```git config --global user.email "youremail@abc.com"```
 <br>
-Set your default editor
+Set your default editor:
 ```git config --global core.editor "vim"```
 <br>
-Set your default merge tool
+Set your default merge tool:
 ```git config --global merge.tool "vimdiff"```
 <br>
-Set your default push behavior
+Set your default push behaviour:
 ```git config --global push.default "simple"```
 <br>
-Set your default pull behavior
+Set your default pull behaviour:
 ```git config --global pull.rebase "true"```
 <br>
-Set your default branch name
+Set your default branch name:
 ```git config --global init.defaultBranch "main"```
 <br>
-Set your default credential helper
+Set your default credential helper:
 ```git config --global credential.helper "cache --timeout=3600"```
 <br>
 
 ### 🛠 Create a Repository
 
-Create a new local repository
+Create a new local repository:
 ```git init [project name]```
 <br>
-Download from an existing repository
+Download from an existing repository:
 ```git clone my_url```
 ### 🔎 Observe your Repository
-List new or modified files not yet committed
+To list new or modified files not yet committed:
 ```git status```
 <br>
-Show the changes to files not yet staged
+To show the changes to files not yet staged:
 ```git diff```
 <br>
-Show the changes to staged files
+To show the changes to staged files:
 ```git diff --cached```
 <br>
-Show all staged and unstaged file changes
+To show all staged and unstaged file changes:
 ```git diff HEAD```
 <br>
-Show the changes between two commit ids
+To show the changes between two commit ids:
 ```git diff commit1 commit2```
 <br>
-List the change dates and authors for a file
+To list the change dates and authors for a file:
 ```git blame [file]```
 <br>
-Show the file changes for a commit id and/or file
+To show the file changes for a commit id and/or file:
 ```git show [commit]: [file]```
 <br>
-Show full change history
+To show full change history:
 ```git log```
 <br>
-Show the change history for file/directory including diffs
+To show the change history for file/directory including diffs:
 ```git log -p [file/directory]```
 <br>
-Show the change history for a specific author
+To show the change history for a specific author:
 ```git log --author="[author name]"```
 <br>
 
 ### 🌴 Working with Branches
-List all local branches
+To list all local branches:
 ```git branch```
 <br>
-List remote and local branches
+To list remote and local branches:
 ```git branch -a```
 <br>
-Switch to an existing branch, branch_name, and update the working directory
+To switch to an existing branch, branch_name, and update the working directory:
 ```git checkout branch_name```
 <br>
-Switch to the last used branch
+To switch to the last used branch:
 ```git checkout - ```
 <br>
-Create a new branch called the new branch
+To create a new branch called the new branch:
 ```git branch branch_name ```
 <br>
-Create a local branch and switch to it
+To create a local branch and switch to it:
 ```git checkout -b branch_name```
 <br>
-Delete the branch called my_branch
+To delete the branch called my_branch:
 ```git branch -d my_branch```
 <br>
-Push branch to remote
+To push a branch to remote:
 ```git push origin branch_name```
 <br>
-Rename current branch
+To rename a current branch:
 ```git branch -m new_name```
 <br>
-Merge branch _a into branch_b
+To merge branch _a into branch_b:
 ```git checkout branch_b```
 ```git merge branch_a```
 <br>
-Abort the current merge
+To abort the current merge:
 ```git merge --abort```
 <br>
-Tag the current commit
+To tag the current commit:
 ```git tag my_tag```
 <br>
-Discard all local commits and changes
+To discard all local commits and changes:
 ```git reset --hard origin/<remote_branch_name>```
 <br>
 
 ### 👛 Make a change
-Stages the file, ready for commit
+To stage the file, ready for commit:
 ```git add [file]```
 <br>
-Stage all changed files, ready for commit
+To stage all changed files, ready for commit:
 ```git add .```
 <br>
-Commit all staged files to the versioned history
+To commit all staged files to the versioned history:
 ```git commit -m "commit message"```
 <br>
-Commit all your tracked files to the versioned history
+To commit all your tracked files to the versioned history:
 ```git commit -am "commit message```
 <br>
-Set the executable flag to an file foo.sh
+To set the executable flag to a file foo.sh:
 ```git update-index --chmod=+x foo.sh```
 <br>
-Unstages the file, keeping the file changes
+To unstaged the file, keeping the file changes:
 ```git reset [file]```
 <br>
-Revert everything to the last commit
+To revert everything to the last commit:
 ```git reset --hard```
 <br>
-Overwrite commit history with your local history (force push):
+To overwrite commit history with your local history (force push):
 ```git push --force```
 <br>
-Reset remote branch to specific commit (danger: use only if not distributed to other people before):
+To reset remote branch to specific commit (danger: use only if not distributed to other people before):
 ```git reset --hard <commit-hash> && git push -f origin <branch-name>```
 <br>
 
 ### 🚰 Synchronize
-Get the latest changes from the origin (no merge)
+To get the latest changes from the origin (no merge):
 ```git fetch```
 <br>
-Fetch the latest changes from the origin and merge
+To fetch the latest changes from the origin and merge:
 ```git pull```
 <br>
-Fetch the latest changes from the origin and rebase
+To fetch the latest changes from the origin and rebase:
 ```git pull --rebase```
 <br>
-Push local changes to the origin
+To push local changes to the origin:
 ```git push```
 <br>
 ### 🧾 Logs and History
-Show commit history in single lines
+To show commit history in single lines:
 ```git log --oneline```
 <br>
-Show commit history for the last N commits
+To show the commit history for the last N commits:
 ```git log -2```
 <br>
-Show commit history for the last N commits with diff
+To show commit history for the last N commits with diff:
 ```git log -p -2```
 <br>
-Show reflog history for emergency actions
+To show reflog history for emergency actions:
 ```git reflog```
 <br>
-Show all local file changes in the working tree
+To show all local file changes in the working tree:
 ```git diff```
 <br>
-Show changes made to a file
+To show changes made to a file:
 ```git diff myfile```
 <br>
-Show who changed what & when in a file
+To show who changed what & when in a file:
 ```git blame myfile```
 <br>
-Show remote branches and their mapping to local
+To show remote branches and their mapping to local:
 ```git remote show origin```
 <br>
 ### 🧹 Cleanup
-Delete all untracked files
+To delete all untracked files:
 ```git clean -f```
 <br>
-Delete all untracked files and directories
+To delete all untracked files and directories:
 ```git clean -df```
 <br>
-Undo local modifications to all files
+To undo local modifications to all files:
 ```git checkout -- ```
 <br>
-Unstages a file
+To unstaged a file:
 ```git reset HEAD myfile```
 <br>
-Undo local modifications to a file and stage it
+To undo local modifications to a file and stage it:
 ```git checkout -- myfile```
 ```git add myfile```
 <br>
-Find the commit that introduced a bug
+To find the commit that introduced a bug:
 ```git bisect start```
 ```git bisect bad```
 ```git bisect good <commit>```
@@ -204,26 +204,26 @@ Find the commit that introduced a bug
 
 ### 📦 Submodules
 
-Add a submodule
+To add a submodule:
 ```git submodule add <url>```
 <br>
-Update a submodule
+To update a submodule:
 ```git submodule update --remote```
 <br>
-Remove a submodule
+To remove a submodule:
 ```git submodule deinit -f -- submodule_name```
 ```git rm -f submodule_name```
 ```git rm -f .gitmodules```
 <br>
 ### 📦 Subtrees
 
-Add a subtree
+To add a subtree:
 ```git subtree add --prefix=folder_name <url>```
 <br>
-Update a subtree
+To update a subtree:
 ```git subtree pull --prefix=folder_name <url>```
 <br>
-Remove a subtree
+To remove a subtree:
 ```git subtree split --prefix=folder_name```
 ```git rm -rf folder_name```
 ```git commit -m "Remove folder_name"```
@@ -301,6 +301,7 @@ This project is licensed under the MIT License - see the [LICENSE](/LICENSE) fil
       <td align="center"><a href="https://github.com/arefathi"><img src="https://github.com/arefathi.png" width="100px;" alt=""/><br /><sub><b>Arefat H</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=arefathi" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/Huluvu424242"><img src="https://github.com/Huluvu424242.png" width="100px;" alt=""/><br /><sub><b>Thomas Schubert</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=Huluvu424242" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/swatiaggrawal"><img src="https://github.com/swatiaggrawal.png" width="100px;" alt=""/><br /><sub><b>Swati Aggrawal</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=swatiaggrawal" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/LoftyDroid"><img src="https://github.com/LoftyDroid.png" width="100px;" alt=""/><br /><sub><b>Swati Aggrawal</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=LoftyDroid" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
