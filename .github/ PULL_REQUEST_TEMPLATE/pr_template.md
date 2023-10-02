@@ -67,6 +67,10 @@ Before submitting this PR, please ensure the following:
 - [ ] This PR is a work in progress and should not be merged yet.
 - [ ] This PR is dependent on another PR, #[link_to_dependent_pr], which needs to be merged first.
 
-## Related PRs
+## Related Issues or PRs
 
-[Link to any related PRs, if applicable.]
+[Link to any related Issues or PRs if applicable. Eg: `#01`]
+
+<br>
+
+Also link dependent issues that will be closed when the PR is merged, Eg: Resolves `#01`
