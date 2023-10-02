@@ -39,7 +39,7 @@ Please check the appropriate box and explain the change you've made:
 [Insert screenshots or GIFs demonstrating the changes made in this PR, if relevant.]
 
 <!-- Replace with your GIF URL -->
-![GIF Placeholder](https://via.placeholder.com/300) 
+![GIF Placeholder](https://via.placeholder.com/300)
 
 ## Checklist
 
