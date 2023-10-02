@@ -292,7 +292,7 @@ This project is licensed under the MIT License - see the [LICENSE](/LICENSE) fil
 
 ### Contributors
 
-✨ Thanks goes to these wonderful people ✨
+<b> ✨ Thanks goes to these wonderful people ✨ </b>
 
 <table>
   <tbody>
