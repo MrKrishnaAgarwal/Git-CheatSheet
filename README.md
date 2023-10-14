@@ -303,8 +303,7 @@ This project is licensed under the MIT License - see the [LICENSE](/LICENSE) fil
       <td align="center"><a href="https://github.com/dollarboysushil"><img src="https://github.com/dollarboysushil.png" width="100px;" alt=""/><br /><sub><b>Sushil Poudel</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=dollarboysushil" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/Gurnav224"><img src="https://github.com/Gurnav224.png" width="100px;" alt=""/><br /><sub><b>Gurnav Chaudhary</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=Gurnav224" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/swatiaggrawal"><img src="https://github.com/swatiaggrawal.png" width="100px;" alt=""/><br /><sub><b>Swati Aggrawal</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=swatiaggrawal" title="Code">💻</a></td>
-    </tr>
-    <td align="center"><a href="https://github.com/LoftyDroid"><img src="https://github.com/LoftyDroid.png" width="100px;" alt=""/><br /><sub><b>Ahmed Shaikh</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=LoftyDroid=" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/LoftyDroid"><img src="https://github.com/LoftyDroid.png" width="100px;" alt=""/><br /><sub><b>Ahmed Shaikh</b></sub></a><br /><a href="https://github.com/MrKrishnaAgarwal/git-cheatsheet/commits?author=LoftyDroid" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
