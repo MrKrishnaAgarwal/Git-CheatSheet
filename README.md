@@ -229,6 +229,19 @@ To remove a subtree:
 ```git commit -m "Remove folder_name"```
 <br>
 
+### 📦Stash
+
+Stash Changes with a message
+`git stash save "message"`
+<br>
+List all stashes
+`git stash list`
+<br>
+Apply the most recent stash and remove it from the stash list.
+`git stash pop`
+
+<br>
+
 ### 🗣Help
 
 ```git help -a``` and ```git help -g``` list available subcommands and some
